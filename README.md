@@ -29,5 +29,27 @@ The algorithm terminates when the two searches meet at a common node, indicating
    git clone https://github.com/Arka056/Bidirectional-Search.git
    cd Bidirectional-Search
    ```
+ **Create Graph**:
+ ```
+   # Create a graph
+   graph = Graph()
+   edges = [
+   (1, 2),
+   (2, 3),
+   (3, 4),
+   (4, 5),
+   (1, 6),
+   (6, 7),
+   (7, 5)]
+   for u, v in edges:
+    graph.add_edge(u, v)
+ ```
 
-   
+   # Perform Bidirectional DFS
+   ```
+   start = 1
+   end = 5
+   path = graph.bidirectional_dfs(start, end)
+
+   print("Shortest Path using Bi-Directional DFS:", path)
+   ```
