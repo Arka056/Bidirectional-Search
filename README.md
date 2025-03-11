@@ -24,11 +24,10 @@ The algorithm terminates when the two searches meet at a common node, indicating
 
 
 
-1. **Clone the repository**:
+ **Clone the repository**:
    ```bash
    git clone https://github.com/Arka056/Bidirectional-Search.git
    cd Bidirectional-Search
    ```
-2. **Install dependencies**:
-   ```bash
+
    
